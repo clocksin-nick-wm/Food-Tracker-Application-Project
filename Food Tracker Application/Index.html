@@ -11,17 +11,17 @@
         Expiration Date: <input type="date" name="date" id="eDate" />
         Color: <input type="color" name="color" id="Color" />
         Weight: <input type="text" name="weight" id="Weight" />
-        <input type="radio" value="Fruit"/> Fruit
-        <input type="radio" value="Meat"/> Meat
-        <input type="radio" value="Vegetable"/> Vegetable
-        <input type="radio" name="Fish"value="Fish"/> Fish
+        <input type="checkbox" value="Fruit" id="fruit" /> Fruit
+        <input type="checkbox" value="Meat" id="meat" /> Meat
+        <input type="checkbox" value="Vegetable" id="vegetable" /> Vegetable
+        <input type="checkbox" name="Fish" value="Fish" id="fish" /> Fish
         <br>
         Description: <input type="text" name="description" id="description" />
-        <input type="submit" value="Submit" />
+        <button type="button" id="submit">Submit</button>
     </form>
-    <table>
+    <table border=1 frame=void rules=rows>
         <thead style="text-align: center">Food Tracker</thead>
-        <tr>
+        <tr id="tr">
             <td>Food Item</td>
             <td>Acquired Date</td>
             <td>Expiration Date</td>
@@ -30,13 +30,10 @@
             <td>Food Group</td>
             <td>Description</td>
         </tr>
+        <tbody id="trackerTable">
+        </tbody>
     </table>
-<script src="jquery1.js"></script>
-<script type="text/javascript">
-    $(document).ready(function(){
-
-    });
-</script>
-
+    <script src="jquery1.js"></script>
+    <script src="Input%20Table.js"></script>
 </body>
 </html>
