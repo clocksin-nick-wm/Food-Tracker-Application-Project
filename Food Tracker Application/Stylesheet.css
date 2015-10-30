@@ -4,13 +4,69 @@ table {
     text-align: center;
     align-content: center;
     padding: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
 }
 
 #table, th {
     text-align: center;
     align-content: center;
+    position: absolute;
+    right: 450px;
 }
 
 td {
     width: 100px;
+}
+
+#data {
+    width: 250px;
+    height: 500px;
+    float: left;
+    align-content: left;
+}
+
+#name {
+    position: relative;
+    right: 0;
+    top: 25px;
+}
+
+#fooditems {
+    width: 250px;
+    height: 500px;
+    float: left;
+    align-content: left;
+    padding: 10px;
+
+}
+
+#header {
+    width: auto;
+    height: 75px;
+    text-align: center;
+    color: white;
+    background-color: #333333;
+}
+
+#health{
+    text-align: center;
+    position: fixed;
+    top: 80%;
+    right: 100px;
+    left: 35%;
+    background-color: #D80000;
+    width: 500px;
+    height: 200px;
+}
+
+html, body {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
 }

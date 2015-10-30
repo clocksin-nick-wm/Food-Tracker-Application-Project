@@ -4,35 +4,44 @@
     <title>Food Application</title>
     <link rel="stylesheet" type="text/css" href="Stylesheet.css">
 </head>
-<body>
-    <form>
-        Food Item: <input type="text" name="food" id="foodItem" />
-        Acquired Date: <input type="date" name="date" id="aDate" />
-        Expiration Date: <input type="date" name="date" id="eDate" />
-        Color: <input type="color" name="color" id="Color" />
-        Weight: <input type="text" name="weight" id="Weight" />
-        <input type="checkbox" value="Fruit" id="fruit" /> Fruit
-        <input type="checkbox" value="Meat" id="meat" /> Meat
-        <input type="checkbox" value="Vegetable" id="vegetable" /> Vegetable
-        <input type="checkbox" name="Fish" value="Fish" id="fish" /> Fish
-        <br>
-        Description: <input type="text" name="description" id="description" />
+<body background="http://big.org.ua/base/9/900.jpg">
+    <div id="header">
+        <h1 id="name">Food Applicationt</h1>
+    </div>
+    <div id="data">
+    <form id="fooditems">
+        Input Data <br>
+        Food Item: <input type="text" name="food" id="foodItem" /><br>
+        Acquired Date: <input type="date" name="date" id="aDate" /><br>
+        Expiration Date: <input type="date" name="date" id="eDate" /><br>
+        Weight: <input type="text" name="weight" id="Weight" /><br>
+        <input type="radio" value="Fruit" id="fruit" /> Fruit
+        <input type="radio" value="Meat" id="meat" /> Meat
+        <input type="radio" value="Vegetable" id="vegetable" /> Vegetable
+        <input type="radio" name="Fish" value="Fish" id="fish" /> Fish
         <button type="button" id="submit">Submit</button>
     </form>
+    </div>
+    <div id="table">
     <table border=1 frame=void rules=rows>
-        <thead style="text-align: center">Food Tracker</thead>
         <tr id="tr">
             <td>Food Item</td>
             <td>Acquired Date</td>
             <td>Expiration Date</td>
-            <td>Color</td>
             <td>Weight(Oz)</td>
             <td>Food Group</td>
-            <td>Description</td>
         </tr>
         <tbody id="trackerTable">
         </tbody>
     </table>
+    </div>
+    <div id="health">
+        <h3>Health Tip</h3>
+        <p>This helathy food fact might help you in the future to make a healthy choice on your
+        next meal. When cutting back on unhealthy foods in your diet, it’s important to replace them with healthy alternatives.
+            Replacing dangerous trans fats with healthy fats (such as switching fried chicken
+            for grilled fish) will make a positive difference to your health. </p>
+    </div>
     <script src="jquery1.js"></script>
     <script src="Input%20Table.js"></script>
 </body>
