@@ -6,27 +6,32 @@
 </head>
 <body background="http://big.org.ua/base/9/900.jpg">
     <div id="header">
-        <h1 id="name">Food Applicationt</h1>
+        <h1 id="name">Food Application</h1>
     </div>
     <div id="data">
     <form id="fooditems">
         Input Data <br>
+        Day: <input type="text" name="day" id="day" /><br>
         Food Item: <input type="text" name="food" id="foodItem" /><br>
-        Acquired Date: <input type="date" name="date" id="aDate" /><br>
+        Acquired Date: <input type="datetime-local" name="date" id="aDate" /><br>
         Expiration Date: <input type="date" name="date" id="eDate" /><br>
         Weight: <input type="text" name="weight" id="Weight" /><br>
         Description: <input type="text" id="description">
         <button type="button" id="submit">Submit</button>
     </form>
+        <form>
+
+        </form>
     </div>
     <div id="table">
     <table border=1 frame=void rules=rows>
         <tr id="tr">
+            <td>Day</td>
             <td>Food Item</td>
             <td>Acquired Date</td>
             <td>Expiration Date</td>
             <td>Weight(Oz)</td>
-            <td>description</td>
+            <td>Description</td>
         </tr>
         <tbody id="trackerTable">
         </tbody>
