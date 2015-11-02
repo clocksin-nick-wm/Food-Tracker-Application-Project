@@ -4,13 +4,13 @@ table {
     padding: 100px;
     background-color: white;
     position: fixed;
-    left: 600px;
+    left: 293px;
 }
 
 #caloriesTable {
     position: fixed;
-    left: 865px;
-    top: 750px;
+    left: 975px;
+    top: 35%;
 }
 
 #table, th {
@@ -46,6 +46,22 @@ td {
 
 }
 
+#weightTble {
+    position: fixed;
+    left: 1500px;
+    top: 31%;
+}
+
+#weightT{
+    background-color: #33CC99;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    align-content: center;
+    position: fixed;
+    left: 1400px;
+}
+
 #header {
     width: auto;
     height: 75px;
@@ -58,9 +74,8 @@ td {
     text-align: center;
     position: fixed;
     top: 20%;
-    right: 100px;
-    left: 37.5%;
-    background-color: #D80000;
+    left: 300px;
+    background-color: #33CC99;
     width: 500px;
     height: 200px;
 }
@@ -77,10 +92,8 @@ html, body {
 #calories {
     text-align: center;
     position: fixed;
-    top: 50%;
-    right: 100px;
-    left: 37.5%;
-    background-color: #D80000;
+    left: 825px;
+    background-color: #33CC99;
     width: 500px;
-    height: 223px;
+    height: 240px;
 }
