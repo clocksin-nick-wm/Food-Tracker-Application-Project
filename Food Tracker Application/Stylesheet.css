@@ -59,11 +59,12 @@ td {
     text-align: center;
     align-content: center;
     position: fixed;
-    left: 1400px;
+    right: 240px;
+    top: 375px;
 }
 
 #header {
-    width: auto;
+    width: 1500px;
     height: 75px;
     text-align: center;
     color: white;
@@ -82,7 +83,7 @@ td {
 
 html, body {
     position: fixed;
-    width: 100%;
+    width: 1000px;
     left: 0;
     right: 0;
     top: 0;
