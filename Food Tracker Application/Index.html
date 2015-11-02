@@ -16,7 +16,8 @@
         Acquired Date: <input type="datetime-local" name="date" id="aDate" /><br>
         Expiration Date: <input type="date" name="date" id="eDate" /><br>
         Weight: <input type="text" name="weight" id="Weight" /><br>
-        Description: <input type="text" id="description">
+        Serving Size: <input type="text" name="size" id="description" /><br>
+        Calories Consumed: <input type="text" name="consume" id="consumed" />
         <button type="button" id="submit">Submit</button>
     </form>
         <form>
@@ -31,7 +32,8 @@
             <td>Acquired Date</td>
             <td>Expiration Date</td>
             <td>Weight(Oz)</td>
-            <td>Description</td>
+            <td>Serving Size</td>
+            <td>Calories Consumed</td>
         </tr>
         <tbody id="trackerTable">
         </tbody>
@@ -57,7 +59,7 @@
                 Calories consumed: <input type="text" id="calorie" />
                 <button type="submit" id="submit2">Submit</button>
             </form>
-            <table border="1" frame="void" rules="row">
+            <table id="caloriesTable" border="1" frame="void" rules="row">
                 <tr id="trc">
                     <td>Day</td>
                     <td>Calories consumed</td>
@@ -66,7 +68,8 @@
                 </tbody>
             </table>
         </div>
-    <script src="jquery1.js"></script>
-    <script src="Input%20Table.js"></script>
+    <script src="jquery1.js" type="text/javascript"></script>
+    <script src="Input%20Table.js" type="text/javascript"></script>
+    <script src="Calories%20Table.js" type="text/javascript"></script>
 </body>
 </html>

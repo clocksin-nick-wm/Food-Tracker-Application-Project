@@ -4,7 +4,13 @@ table {
     padding: 100px;
     background-color: white;
     position: fixed;
-    left: 675px;
+    left: 600px;
+}
+
+#caloriesTable {
+    position: fixed;
+    left: 865px;
+    top: 750px;
 }
 
 #table, th {
