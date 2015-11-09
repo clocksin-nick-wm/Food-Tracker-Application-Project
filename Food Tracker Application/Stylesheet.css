@@ -48,8 +48,15 @@ td {
 
 #weightTble {
     position: fixed;
-    left: 1500px;
-    top: 31%;
+    left: 387px;
+    top: 70%;
+}
+
+#body {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 500px;
 }
 
 #weightT{
@@ -59,7 +66,7 @@ td {
     text-align: center;
     align-content: center;
     position: fixed;
-    right: 240px;
+    right: 640px;
     top: 375px;
 }
 

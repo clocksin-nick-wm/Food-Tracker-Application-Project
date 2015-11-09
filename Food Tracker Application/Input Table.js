@@ -18,4 +18,14 @@ $(document).ready(function() {
             'marginTop': "+=23px"  //moves down
         })
     });
+    $(submit).click(function (){
+        $("#weightTble").animate({
+            'marginTop' : "+=23px"
+        });
+    });
+    $(submit).click(function (){
+        $("#weightT").animate({
+            'marginTop' : "+=23px"
+        });
+    });
 });
